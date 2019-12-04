@@ -1,0 +1,83 @@
+body {
+    background-image: url(../images/photo-1465418031253-26bca286214c.jpeg);
+    background-size: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.nav {
+    background-color: #D9D0C7;
+    padding: 30px;
+}
+
+.nav-link {
+    color: #262624;
+}
+
+.nav-link:hover {
+    color: #A68572;
+}
+.contact {
+    margin-right: 14px;
+}
+
+#github-icon {
+    margin-top: 7px;
+    margin-right: 29px;
+    height: 30px;
+    width: 30px;
+}
+
+#linkedin-icon {
+    margin-top: 7px;
+    margin-right: 18px;
+    height: 30px;
+    width: 35px;
+}
+
+.jumbotron-fluid {
+    background-color: #BFA084;
+}
+
+#aboutme-jumbo {
+    background-color: #A68572;
+}
+
+#projects-jumbo {
+    background-color: #D9D0C7;
+}
+
+/* Slick CSS */
+/* .portfolio-slider { 
+    border-top: 3px solid #262624;
+    border-bottom: 3px solid #262624;
+    border: 2px solid #262624;
+    border-radius: 4px;
+} */
+
+/* .portfolio-slider {
+    flex: 1 1 0;
+    background-color: #A68572;
+} */
+  
+.inner {
+    padding: 20px;
+} 
+  
+.game-img {
+    width: 100%;
+    height: auto;
+    margin: 7px;
+    /* border: 2px solid #262624;
+    border-radius: 4px; */
+}
+
+.game-img:hover {
+    opacity: 0.9;
+}
+  
+.app-title {
+    color:#262624;
+    text-align: center;
+}
+
