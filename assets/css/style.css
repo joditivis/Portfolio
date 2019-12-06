@@ -260,3 +260,14 @@ label {
     }
 }
 
+@media screen and (max-width:550px) {
+    .my-photo {
+        height: 100%;
+        width: 100%;
+    }
+
+    .pashi-and-me {
+        height: 100%;
+        width: 100%;
+    }
+}
