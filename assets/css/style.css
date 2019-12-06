@@ -1,6 +1,10 @@
 body {
     background-image: url(../images/simple.jpeg);
     background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Abhaya Libre', serif;
 }
 
@@ -46,13 +50,13 @@ h2, h4, p {
 }
 
 .navbar-brand {
-    width: 100px;
-    height: 99px;
+    width: 75px;
+    height: 74px;
     border: 1px solid #A68572;
     background-image: url(../images/LOGO3.jpeg);
-    background-size: 100px;
+    background-size: 74px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 15px;
+    margin-left: 35px;
 }
 
 .nav-link {
@@ -77,16 +81,60 @@ h2, h4, p {
     background-color: #BFA084;
 }
 
+.intro-jumbo {
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.intro-name {
+    text-align: center;
+}
+
+.intro-tag {
+    text-align: center;
+    font-size: 22px;
+}
+
 #aboutme-jumbo {
     background-color: #A68572;
+}
+
+.about-me-header {
+    font-size: 40px;
+}
+
+.aboutme {
+    font-size: 23px;
+}
+
+.my-photo {
+    float: right;
+    width: 275px;
+    height: 275px;
+    margin: 10px;
+}
+
+.pashi-and-me {
+    float: left;
+    height: 290px;
+    width: 315px;
+    margin: 10px;
 }
 
 #projects-jumbo {
     background-color: #D9D0C7;
 }
 
+.projects {
+    font-size: 40px;
+}
+
 .contact-jumbo {
     background-color: #A68572;
+}
+
+.contact {
+    font-size: 40px;
 }
 
 .inner {
@@ -94,17 +142,19 @@ h2, h4, p {
 } 
 
 .app-title {
-    color:#F2F2F2;
+    color:#A68572;
     text-align: center;
+    font-size: 30px;
 }
 
 .links {
     text-align: center;
-    color: #F2F2F2;
+    color: #A68572;
+    font-size: 20px;
 }
 
 .links:hover {
-    color: #A68572;
+    color: #262624;
 }
   
 .game-img {
@@ -124,6 +174,7 @@ h2, h4, p {
     border-radius: 4px;
     border: 1px solid #A68572;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 18px;
 }
 
 #submit:hover {
@@ -133,6 +184,35 @@ h2, h4, p {
 
 #thank-you-msg {
     color: #F2F2F2;
+    font-size: 20px;
+}
+
+.code-text {
+    font-size: 23px;
+}
+
+#resume-btn {
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    background-color: #D9D0C7;
+    color: #A68572;
+    border-radius: 4px;
+    border: 1px solid #A68572;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#resume-btn:hover {
+    background-color: #262624;
+    color: #D9D0C7;
+}
+
+.contact-msg {
+    font-size: 20px;
+}
+
+label {
+    font-size: 20px;
 }
 
 .footer {
@@ -166,8 +246,8 @@ h2, h4, p {
     }
 
     .menu a {
-        display: block;
-        border-bottom: 1px solid #262624;
+        /* display: block; */
+        float: right;
         margin: 0;
     }
 
