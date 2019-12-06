@@ -5,9 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <title>Jodi Tivis</title>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre&display=swap" rel="stylesheet">
 
     <!-- Slick CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
@@ -16,93 +25,115 @@
     <!-- Local CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <title>Jodi Tivis</title> 
 </head>
 
 <body>
+    <div class="navbar">
+        <!-- <div class="container-fluid"> -->
+            <!-- Navbar -->
+            <a class="navbar-brand" href="index.html"></a>
+            <label class="menu-label" for="toggle">&#9776</label>
+            <input type="checkbox" id="toggle"/>
+            <div class="menu">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="resume.html">Resume</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="https://github.com/joditivis" target="_blank"><img id="github-icon"
+                            src="assets/images/GitHub-Mark-120px-plus.png" alt="github icon"></a>
+                    <a class="nav-link" href="https://www.linkedin.com/in/jodi-tivis-01ba89191/" target="_blank"><img id="linkedin-icon"
+                            src="assets/images/LI-In-Bug.png" alt="linkedin icon"></a>
+            </div>
+        <!-- </div> -->
+    </div>
 
-    <ul class="nav justify-content-end">
-        <li class="nav-item home">
-            <a class="nav-link active" href="#">home</a>
-        </li>
-        <li class="nav-item resume">
-            <a class="nav-link" href="assets/resume/Resume.pages">resume</a>
-        </li>
-        <li class="nav-item contact">
-            <a class="nav-link" href="contact.html">contact</a>
-        </li>
-        <li class="nav-item github">
-            <a href="https://github.com/joditivis" target="_blank"><img id="github-icon"
-                    src="assets/images/GitHub-Mark-120px-plus.png" alt="github icon"></a>
-        </li>
-        <li class="nav-item linkedin">
-            <a href="https://www.linkedin.com/in/jodi-tivis-01ba89191/" target="_blank"><img id="linkedin-icon"
-                    src="assets/images/LI-In-Bug.png" alt="linkedin icon"></a>
-        </li>
-    </ul>
     <br>
+
     <div class="jumbotron jumbotron-fluid">
-        <div class="container text-center">
-            <h4 class="display-4">Hi! Jodi here.</h4>
-            <p class="lead">I am a Front-End Web Developer living in Fort Collins, Colorado.</p>
+        <div class="container">
+            <h4 class="display-4">Hi! My name is Jodi.</h4>
+            <p class="lead">I am a Web Developer living in Fort Collins, Colorado.</p>
         </div>
     </div>
 
     <br>
+
     <div class="jumbotron jumbotron-fluid" id="aboutme-jumbo">
         <div class="container">
-            <p class="lead aboutme-paragraph">My journey to web development began last year. With an eagerness to create and discover where my passion could best be used, I realized my eagerness to pursue and dig deeper into front-end web development and design.</p>
+            <p class="lead aboutme-paragraph">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+                cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et
+                dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
+                nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis
+                voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut
+                rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque
+                earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+                aut perferendis doloribus asperiores repellat."</p>
         </div>
     </div>
 
     <br>
+
     <div class="jumbotron jumbotron-fluid" id="projects-jumbo">
         <div class="container">
             <h2 class="display-4">Projects + Creations</h2>
-                <div class="gallery gallery-responsive portfolio-slider">
-                    <div class="inner">
-                        <h4 class="app-title">NYC Word Guess</h4>
-                        <a href="https://joditivis.github.io/Word-Guess-Game/" target="_blank">Play the game</a>
-                        <a href="https://github.com/joditivis/Word-Guess-Game" target="_blank">View the code</a>
-                        <img src="assets/images/WORDGUESSNY.jpeg" class="game-img" alt="Central Park">
-                    </div>
-                    <div class="inner">
-                        <h4 class="app-title">Crystal Collector</h4>
-                        <a href="https://joditivis.github.io/unit-4-game/" target="_blank">Play the game</a>
-                        <a href="https://github.com/joditivis/unit-4-game" target="_blank">View the code</a>
-                        <img src="assets/images/crystalcollector.jpg" class="game-img" alt="Central Park">
-                    </div>
-                    <div class="inner">
-                        <h4 class="app-title">Christmas Trivia</h4>
-                        <a href="https://joditivis.github.io/TriviaGame/" target="_blank">Play the game</a>
-                        <a href="https://github.com/joditivis/TriviaGame" target="_blank">View the code</a>
-                        <img src="assets/images/christmas.jpeg" class="game-img" alt="Central Park">
-                    </div>
-                    <div class="inner">
-                        <h4 class="app-title">GIF Generator</h4>
-                        <a href="https://joditivis.github.io/GifTastic/" target="_blank">Play the game</a>
-                        <a href="https://github.com/joditivis/GifTastic" target="_blank">View the code</a>
-                        <img src="assets/images/clouds.gif" class="game-img" alt="Central Park">
-                    </div>
-                    <div class="inner">
-                        <h4 class="app-title">Train Scheduler</h4>
-                        <a href="https://joditivis.github.io/Train-Scheduler/" target="_blank">View the app</a>
-                        <a href="https://github.com/joditivis/Train-Scheduler" target="_blank">View the code</a>
-                        <img src="assets/images/SNOWY.jpeg" class="game-img" alt="Central Park">
-                    </div>
-                    <div class="inner">
-                        <h4 class="app-title">Gif-ting</h4>
-                        <a href="https://stacyholtz6.github.io/Gif-ting/" target="_blank">View the app</a>
-                        <a href="https://github.com/joditivis/Gif-ting" target="_blank">View the code</a>
-                        <img src="assets/images/gifts.jpeg" class="game-img" alt="Central Park">
-                    </div>
+            <div class="gallery gallery-responsive portfolio-slider">
+                <div class="inner">
+                    <h4 class="app-title">NYC Word Guess</h4>
+                    <img src="assets/images/WORDGUESSNY.jpeg" class="game-img" alt="Central Park">
+                    <a href="https://joditivis.github.io/Word-Guess-Game/" target="_blank" class="links">play game </a>
+                    |
+                    <a href="https://github.com/joditivis/Word-Guess-Game" target="_blank" class="links"> view code</a>
                 </div>
+                <div class="inner">
+                    <h4 class="app-title">Crystal Collector</h4>
+                    <img src="assets/images/crystalcollector.jpg" class="game-img" alt="Gems">
+                    <a href="https://joditivis.github.io/unit-4-game/" target="_blank" class="links">play game </a>
+                    |
+                    <a href="https://github.com/joditivis/unit-4-game" target="_blank" class="links"> view code</a>
+                </div>
+                <div class="inner">
+                    <h4 class="app-title">Christmas Trivia</h4>
+                    <img src="assets/images/christmas.jpeg" class="game-img" alt="Christmas ornaments">
+                    <a href="https://joditivis.github.io/TriviaGame/" target="_blank" class="links">play game </a>
+                    |
+                    <a href="https://github.com/joditivis/TriviaGame" target="_blank" class="links"> view code</a>
+                </div>
+                <div class="inner">
+                    <h4 class="app-title">GIF Generator</h4>
+                    <img src="assets/images/clouds.gif" class="game-img" alt="Clouds">
+                    <a href="https://joditivis.github.io/GifTastic/" target="_blank" class="links">play game </a>
+                    |
+                    <a href="https://github.com/joditivis/GifTastic" target="_blank" class="links"> view code</a>
+                </div>
+                <div class="inner">
+                    <h4 class="app-title">Train Scheduler</h4>
+                    <img src="assets/images/SNOWY.jpeg" class="game-img" alt="Train at station">
+                    <a href="https://joditivis.github.io/Train-Scheduler/" target="_blank" class="links">view app </a>
+                    |
+                    <a href="https://github.com/joditivis/Train-Scheduler" target="_blank" class="links"> view code</a>
+                </div>
+                <div class="inner">
+                    <h4 class="app-title">Gif-ting</h4>
+                    <img src="assets/images/gifts.jpeg" class="game-img" alt="Presents">
+                    <a href="https://stacyholtz6.github.io/Gif-ting/" target="_blank" class="links">view app </a>
+                    |
+                    <a href="https://github.com/joditivis/Gif-ting" target="_blank" class="links"> view code</a>
+                </div>
+            </div>
         </div>
     </div>
+
+    <br>
+    <br>
+
+    <!--Footer-->
+    <footer class="footer">Jodi Tivis &copy; Copyright</footer>
+
 </body>
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery.js"></script>
+
 <!-- bootstrap js links -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -110,8 +141,14 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
 <!-- Slick JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-database.js"></script>
+
 <!-- javascript -->
 <script src="assets/javascript/app.js"></script>
 

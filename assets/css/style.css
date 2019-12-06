@@ -1,36 +1,74 @@
 body {
-    background-image: url(../images/photo-1465418031253-26bca286214c.jpeg);
+    background-image: url(../images/simple.jpeg);
     background-size: 100%;
-    position: sticky;
-    top: 0;
+    font-family: 'Abhaya Libre', serif;
+}
+
+h2, h4, p {
+    color: #F2F2F2;
 }
 
 .nav {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+}
+
+.menu a {
+    display: inline;
+    clear: right;
+    text-decoration: none;
+    color: #F2F2F2;
+    margin: 0 2px;
+    line-height: 70px;
+}
+
+.menu-label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+.navbar  {
     background-color: #D9D0C7;
-    padding: 30px;
+    padding: 10px;
+}
+
+.navbar-brand {
+    width: 100px;
+    height: 99px;
+    border: 1px solid #A68572;
+    background-image: url(../images/LOGO3.jpeg);
+    background-size: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 15px;
 }
 
 .nav-link {
-    color: #262624;
+    font-size: 20px;
 }
 
 .nav-link:hover {
     color: #A68572;
 }
-.contact {
-    margin-right: 14px;
-}
 
 #github-icon {
-    margin-top: 7px;
-    margin-right: 29px;
     height: 30px;
     width: 30px;
 }
 
 #linkedin-icon {
-    margin-top: 7px;
-    margin-right: 18px;
     height: 30px;
     width: 35px;
 }
@@ -47,37 +85,94 @@ body {
     background-color: #D9D0C7;
 }
 
-/* Slick CSS */
-/* .portfolio-slider { 
-    border-top: 3px solid #262624;
-    border-bottom: 3px solid #262624;
-    border: 2px solid #262624;
-    border-radius: 4px;
-} */
-
-/* .portfolio-slider {
-    flex: 1 1 0;
+.contact-jumbo {
     background-color: #A68572;
-} */
-  
+}
+
 .inner {
     padding: 20px;
 } 
+
+.app-title {
+    color:#F2F2F2;
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+    color: #F2F2F2;
+}
+
+.links:hover {
+    color: #A68572;
+}
   
 .game-img {
     width: 100%;
     height: auto;
     margin: 7px;
-    /* border: 2px solid #262624;
-    border-radius: 4px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .game-img:hover {
-    opacity: 0.9;
+    opacity: 0.6;
+} 
+
+#submit {
+    background-color: #D9D0C7;
+    color: #A68572;
+    border-radius: 4px;
+    border: 1px solid #A68572;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-  
-.app-title {
-    color:#262624;
+
+#submit:hover {
+    background-color: #262624;
+    color: #D9D0C7;
+}
+
+#thank-you-msg {
+    color: #F2F2F2;
+}
+
+.footer {
+    background-color: #BFA084;
+    color: #F2F2F2;
     text-align: center;
+    padding: 15px;
+}
+
+.footer-contact, .footer-resume {
+    background-color: #BFA084;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    .menu-label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #262624;
+        margin: 0;
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
 }
 
