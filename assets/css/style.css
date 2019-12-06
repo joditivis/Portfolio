@@ -97,6 +97,7 @@ h2, h4, p {
 
 #aboutme-jumbo {
     background-color: #A68572;
+    padding-bottom: 115px;
 }
 
 .about-me-header {
@@ -105,19 +106,20 @@ h2, h4, p {
 
 .aboutme {
     font-size: 23px;
+    line-height: 40px;
 }
 
 .my-photo {
     float: right;
-    width: 275px;
-    height: 275px;
+    width: 290px;
+    height: 290px;
     margin: 10px;
 }
 
-.pashi-and-me {
+.us-wazza {
     float: left;
     height: 290px;
-    width: 315px;
+    width: 290px;
     margin: 10px;
 }
 
@@ -193,6 +195,7 @@ h2, h4, p {
 
 .code-text {
     font-size: 23px;
+    line-height: 40px;
 }
 
 #resume-btn {
