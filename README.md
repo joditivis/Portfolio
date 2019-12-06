@@ -10,6 +10,7 @@ University of Denver Coding Boot Camp ninth week assignment: Update portfolio
 * CSS
 * JavaScript
 * jQuery
+* Firebase Database
 * Slick https://kenwheeler.github.io/slick/
 * Page Colors found on https://color.adobe.com/trends/Graphic-design
 * None personal photos found on https://unsplash.com/
