@@ -95,6 +95,11 @@ h2, h4, p {
     font-size: 22px;
 }
 
+.contact-info {
+    text-align: center;
+    font-size: 22px;
+}
+
 #aboutme-jumbo {
     background-color: #A68572;
     padding-bottom: 115px;
