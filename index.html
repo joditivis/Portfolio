@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Jodi Tivis</title>
 
@@ -12,7 +12,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
 
     <!-- Slick CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
@@ -21,19 +21,31 @@
     <!-- Local CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/462f69d006.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <div class="navbar">
         <!-- Navbar -->
-        <a class="navbar-brand" href="index.html"></a>
-            <label class="menu-label" for="toggle">&#9776</label>
-            <input type="checkbox" id="toggle"/>
-            <div class="menu">
-                <a class="nav-link" href="https://github.com/joditivis" target="_blank"><img id="github-icon"
-                    src="assets/images/GitHub-Mark-120px-plus.png" alt="github icon"></a>
-                <a class="nav-link" href="https://www.linkedin.com/in/jodi-tivis-01ba89191/" target="_blank"><img id="linkedin-icon"
-                    src="assets/images/LI-In-Bug.png" alt="linkedin icon"></a>
+        <div class="nav-menu">
+            <a class="navbar-home" href="index.html">Home</a>
+            <a class="navbar-about" href="#aboutme-jumbo">About</a>
+            <a class="navbar-projects" href="#projects-jumbo">Projects</a>
+            <a class="navbar-resume" href="#resume">Resume</a>
+            <a class="navbar-contact" href="#contact">Contact</a>
+        </div>
+            <!-- <label class="menu-label" for="toggle">&#9776</label>
+            <input type="checkbox" id="toggle"/> -->
+            <div class="social-menu">
+                <a class="nav-link" href="https://github.com/joditivis" target="_blank"><i class="fab fa-github"></i></a>
+
+                <a class="nav-link" href="https://www.linkedin.com/in/jodi-tivis-01ba89191/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+
+                <a class="nav-link" href="https://www.facebook.com/jodi.tivis" target="_blank"><i class="fab fa-facebook-f"></i></a>
+
+                <a class="nav-link" href="https://www.instagram.com/joditivis/" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
     </div>
 
@@ -43,10 +55,7 @@
     <div class="jumbotron jumbotron-fluid intro-jumbo">
         <div class="container">
             <h4 class="display-4 intro-name">Jodi Tivis</h4>
-            <p class="lead intro-tag">Aspiring web Developer from Fort Collins, Colorado.</p>
-            <p class="contact-info">Email: joditivis@gmail.com
-            <br>
-            Phone: 719-355-9114</p>
+            <p class="lead intro-tag">Aspiring Web Developer from Fort Collins, Colorado</p>
         </div>
     </div>
 
@@ -56,7 +65,7 @@
     <div class="jumbotron jumbotron-fluid" id="aboutme-jumbo">
         <div class="container">
             <h4 class="display-4 about-me-header">About Me</h4>
-            <img src="assets/images/me.jpg" class="my-photo" alt="photo of me">
+            <img src="assets/images/myphoto.jpg" class="my-photo" alt="photo of me">
             <p class="aboutme">
             Hi! My name is Jodi and I am an aspiring web developer. 
             <br>
@@ -66,10 +75,11 @@
             I traveled to five countries with a missions organization after high school; which only planted the travel bug even deeper. Taking me to a few more countries and moving to different states.
             <br>
             I put off pursuing a career for the reason of not fully knowing what I really wanted to dive into head first. Then, there was a web development bootcamp.
-            Barely any questions asked, I knew I needed to learn and pursue this. I have always liked creating easy template websites for friend's school portfolios/resumes or family's businesses, I thought, 'why would I not pursue the real deal?' Template websites are only good for sparing you a headache.
+            Barely any questions asked, I knew I needed to learn and pursue this.
+            <img src="assets/images/wazza.jpg" class="us-wazza" alt="me and my fiance">
+            I have always liked creating easy template websites for friend's school portfolios/resumes or family's businesses, I thought, 'why would I not pursue the real deal?' Template websites are only good for sparing you a headache.
             But with headache and all, learning to code has been an extremely exciting journey that I only get more excited about.
             <br>
-            <img src="assets/images/wazza.jpg" class="us-wazza" alt="me and my fiance">
             I have now settled down a bit, and am living in Fort Collins, Colorado with my fiancé and our alaskan malamute, Wazza. We still both enjoy traveling when we can, but are eager to start our careers and life together. 
             <br>
             In my free time you can find me doing anything creative, enjoying the great outdoors, taking up a few photography gigs or taking photos of my adventures.
@@ -135,7 +145,7 @@
     <br>
     <br>
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid focus-experience" id="resume">
         <div class="container">
             <h4 class="display-4 focus">Focus + Experience</h4>
             <p class="lead code-text">Aspiring Full Stack Web Developer with a focus and interest in creating a visually rich and aesthetic
@@ -158,23 +168,25 @@
     <br>
     <br>
 
-    <div class="jumbotron jumbotron-fluid contact-jumbo">
+    <div class="jumbotron jumbotron-fluid contact-jumbo" id="contact">
             <div class="container">
                 <h4 class="mt-0 contact">Contact</h4>
-                <p class="contact-msg">Let's collaborate!</p>
+                <p class="contact-info">Email: joditivis@gmail.com
+                    <br>
+                    Phone: 719-355-9114</p>
                 <form>
                     <div class="form-group">
-                        <label for="contactname">Name</label>
+                        <label class="contact-labels" for="contactname">Name</label>
                         <input type="name" class="form-control" id="contactname" aria-describedby="emailHelp"
                             placeholder="Enter name">
                     </div>
                     <div class="form-group">
-                        <label for="email">Email</label>
+                        <label class="contact-labels" for="email">Email</label>
                         <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
                             placeholder="Enter email">
                     </div>
                     <div class="form-group">
-                        <label for="contactMessage">Message</label>
+                        <label class="contact-labels" for="contactMessage">Message</label>
                         <textarea class="form-control" id="contactMessage" rows="3"></textarea>
                     </div>
                     <button type="submit" id="submit" class="btn" href="index.html">Submit</button>

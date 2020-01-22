@@ -1,11 +1,11 @@
 body {
-    background-image: url(../images/simple.jpeg);
+    background-image: url(../images/palms.jpeg);
     background-size: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Abhaya Libre', serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 h2, h4, p {
@@ -18,11 +18,11 @@ h2, h4, p {
     line-height: 70px;
 }
 
-.menu {
+.social-menu {
     margin: 0 30px 0 0;
 }
 
-.menu a {
+.social-menu a {
     display: inline;
     clear: right;
     text-decoration: none;
@@ -38,25 +38,29 @@ h2, h4, p {
     display: none;
     width: 26px;
     float: right;
+    color: #F2F2F2;
 }
 
 #toggle {
     display: none;
 }
 
-.navbar  {
-    background-color: #D9D0C7;
-    padding: 10px;
+.nav-menu {
+    margin: 0 30px 0 30px;
 }
 
-.navbar-brand {
-    width: 75px;
-    height: 74px;
-    border: 1px solid #A68572;
-    background-image: url(../images/LOGO3.jpeg);
-    background-size: 74px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 35px;
+.nav-menu a {
+    display: inline;
+    clear: left;
+    text-decoration: none;
+    color: #F2F2F2;
+    margin: 0 15px;
+    line-height: 70px;
+    font-size: 16px;
+}
+
+.nav-menu a:hover {
+    color: #A68572;
 }
 
 .nav-link {
@@ -67,23 +71,10 @@ h2, h4, p {
     color: #A68572;
 }
 
-#github-icon {
-    height: 30px;
-    width: 30px;
-}
-
-#linkedin-icon {
-    height: 30px;
-    width: 35px;
-}
-
-.jumbotron-fluid {
-    background-color: #BFA084;
-}
-
 .intro-jumbo {
     padding: 10px;
     margin-top: 30px;
+    background: rgb(217, 208, 199, 0.7);
 }
 
 .intro-name {
@@ -92,26 +83,21 @@ h2, h4, p {
 
 .intro-tag {
     text-align: center;
-    font-size: 22px;
-}
-
-.contact-info {
-    text-align: center;
-    font-size: 22px;
+    font-size: 16px;
 }
 
 #aboutme-jumbo {
-    background-color: #A68572;
+    background: rgb(166, 133, 114, 0.9);
     padding-bottom: 115px;
 }
 
 .about-me-header {
-    font-size: 40px;
+    font-size: 28px;
 }
 
 .aboutme {
-    font-size: 23px;
-    line-height: 40px;
+    font-size: 16px;
+    line-height: 25px;
 }
 
 .my-photo {
@@ -119,6 +105,7 @@ h2, h4, p {
     width: 290px;
     height: 290px;
     margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .us-wazza {
@@ -126,22 +113,23 @@ h2, h4, p {
     height: 290px;
     width: 290px;
     margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #projects-jumbo {
-    background-color: #D9D0C7;
+    background: rgb(217, 208, 199, 0.9);
 }
 
 .projects {
-    font-size: 40px;
+    font-size: 32px;
 }
 
 .contact-jumbo {
-    background-color: #A68572;
+    background: rgb(166, 133, 114, 0.9);
 }
 
 .contact {
-    font-size: 40px;
+    font-size: 32px;
 }
 
 .inner {
@@ -151,13 +139,13 @@ h2, h4, p {
 .app-title {
     color:#A68572;
     text-align: center;
-    font-size: 30px;
+    font-size: 23px;
 }
 
 .links {
     text-align: center;
     color: #A68572;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .links:hover {
@@ -181,7 +169,7 @@ h2, h4, p {
     border-radius: 4px;
     border: 1px solid #A68572;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #submit:hover {
@@ -191,22 +179,26 @@ h2, h4, p {
 
 #thank-you-msg {
     color: #F2F2F2;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .focus {
-    font-size: 40px;
+    font-size: 32px;
+}
+
+.focus-experience {
+    background: rgb(191, 160, 132, 0.9);
 }
 
 .code-text {
-    font-size: 23px;
-    line-height: 40px;
+    font-size: 16px;
+    line-height: 25px;
 }
 
 #resume-btn {
     height: 50px;
     width: 150px;
-    font-size: 20px;
+    font-size: 16px;
     background-color: #D9D0C7;
     color: #A68572;
     border-radius: 4px;
@@ -220,15 +212,16 @@ h2, h4, p {
 }
 
 .contact-msg {
-    font-size: 20px;
+    font-size: 16px;
 }
 
-label {
-    font-size: 20px;
+.contact-labels {
+    font-size: 16px;
 }
 
 .footer {
-    background-color: #BFA084;
+    /* background-color: #BFA084; */
+    background: rgb(191, 160, 132, 0.7);
     color: #F2F2F2;
     text-align: center;
     padding: 15px;
@@ -245,37 +238,89 @@ label {
     width: 100%;
 }
 
-@media only screen and (max-width: 500px) {
-    .menu-label {
-        display: block;
-        cursor: pointer;
+
+/* MEDIA QUERIES */
+
+/* Mobile Phones */
+@media only screen and (max-width: 378px) {
+    .nav-menu a {
+        margin: 0 5px;
     }
 
-    .menu {
+    .nav-menu {
+        margin: 0 2px 0 2px;
+    }
+
+    .social-menu {
         text-align: center;
+        margin: 0;
         width: 100%;
-        display: none;
+        /* display: none; */
     }
 
-    .menu a {
-        /* display: block; */
-        float: right;
+    .social-menu a {
+        display: inline-block;
         margin: 0;
     }
 
-    #toggle:checked + .menu {
-        display: block;
+    .aboutme {
+        margin-left: auto;
+        margin-right: auto;
+        width: 22rem;
     }
-}
 
-@media screen and (max-width:550px) {
     .my-photo {
-        height: 100%;
-        width: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
     }
 
     .pashi-and-me {
-        height: 100%;
-        width: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* .menu-label {
+        display: block;
+        cursor: pointer;
+    } */
+    /* #toggle:checked + .social-menu {
+        display: block;
+    } */
+}
+/* Tablets */
+@media screen and (max-width:600px) {
+    .nav-menu a {
+        margin: 0 5px;
+    }
+
+    .nav-menu {
+        margin: 0 2px 0 2px;
+    }
+}
+
+/* iPads */
+@media screen and (max-width:768px) {
+    .nav-menu a {
+        margin-left: 3.5px;
+    }
+
+    .my-photo {
+        float: right;
+        width: 290px;
+        height: 290px;
+        margin: 10px;
+    }
+
+    .pashi-and-me {
+        float: left;
+        height: 250px;
+        width: 250px;
+        margin: 10px;
+    }
+
+    .jumbotron-fluid {
+        padding-right: 0;
     }
 }
